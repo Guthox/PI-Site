@@ -21,3 +21,7 @@ body{
 #noticias{
     background-color: #69A625;
 }
+
+p{
+    font-size: 140%;
+}
