@@ -25,3 +25,17 @@ body{
 p{
     font-size: 140%;
 }
+
+#comoChegar {
+    background-color: #ECECEC;
+}
+
+#rodape {
+    background-color: lightgrey;
+}
+
+
+footer a{
+    font-size: 50px;
+}
+
