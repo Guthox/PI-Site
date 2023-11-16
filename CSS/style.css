@@ -4,22 +4,27 @@ body{
 
 .navbar {
     background-color: #69A625;
+    /* background-image: linear-gradient(#69A625, #69A625); */
 }
 
 #sobreNos{
-    background-color: #EA8356;
+    /* background-color: #EA8356; */
+    background-image: linear-gradient(#EA8356, #3A90C3);
 }
 
 #projetos{
-    background-color: #3A90C3;
+    /* background-color: #3A90C3; */
+    background-image: linear-gradient(#3A90C3, #ECECEC);
 }
 
 #fotos{
-    background-color: #ECECEC;
+    /* background-color: #ECECEC; */
+    background-image: linear-gradient(#ECECEC, #69A625);
 }
 
 #noticias{
-    background-color: #69A625;
+    /* background-color: #69A625; */
+    background-image: linear-gradient(#69A625, #ECECEC);
 }
 
 p{
@@ -27,7 +32,8 @@ p{
 }
 
 #comoChegar {
-    background-color: #ECECEC;
+    /* background-color: #ECECEC; */
+    background-image: linear-gradient(#ECECEC, lightgrey);
 }
 
 #rodape {
