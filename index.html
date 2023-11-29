@@ -40,39 +40,10 @@
             </div>
         </nav>
         <!-- ****************************************************************** -->
-        <!-- ***************************** BANNER ***************************** -->
-        <div class="container-lg mb-0">
-            <div
-                id="carouselExampleControls"
-                class="carousel slide"
-                data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="IMG/placeholder.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="IMG/placeholder.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="IMG/placeholder.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Proximo</span>
-                </button>
+        <!-- ***************************** Banner ***************************** -->
+        <div class="container-fluid">
+            <div class="container-lg text-center">
+                <img src="IMG/usina_10.jpg" alt="" class="img-fluid">
             </div>
         </div>
         <!-- ****************************************************************** -->
@@ -98,7 +69,69 @@
             </div>
         </div>
         <!-- ****************************************************************** -->
-        <!-- *************************** proposta **************************** -->
+        <!-- *************************** Parceiros **************************** -->
+        <div class="container-fluid" id="apoiadores">
+            <div class="container-fluid text-center mt-0">
+                <h1>Apoiadores</h1>
+            </div>
+        
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container-lg">
+                    <div class="row">
+                        <div class="col-md-4 d-flex justify-content-center my-3">
+                            <div class="card">
+                                <img src="IMG/cades_Ipiranga.png" class="card-img-top" alt="...">
+                            </div>
+                        </div >
+                        <div class="col-md-4 d-flex justify-content-center my-3">
+                            <div class="card">
+                                <img src="IMG/missao_ambiental.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center my-3">
+                            <div class="card">
+                                <img src="IMG/muda_ipiranga.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-lg">
+                    <div class="row">
+                        <div class="col-md-4 d-flex justify-content-center my-3">
+                            <div class="card">
+                                <img src="IMG/casa_de_cultura_chico_science.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div >
+                        <div class="col-md-4 d-flex justify-content-center my-3">
+                            <div class="card">
+                                <img src="IMG/SOSabelhas.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex justify-content-center my-3">
+                            <div class="card">
+                                <img src="IMG/umapaz.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Proximo</span>
+            </button>
+          </div>
+        </div>
+        <!-- ****************************************************************** -->
+        <!-- *************************** Proposta **************************** -->
         <div class="container-fluid" id="proposta">
             <div class="container-fluid text-center mt-0">
                 <h1>Propostas</h1>
@@ -110,7 +143,14 @@
                         <!-- <img src="IMG/usina_3.jpg" alt="..." class="img-thumbnail m-1"> -->
                     </div>
                     <div class="col-lg-4 justify-center py-5">
-                        <p>Nossa proposta mostra o quanto é necessário uma mobilização conjunta com a comunidade, no sentido de transformação do espaço interno e externo da Usina e transformação do seu uso, as discussões caminham para um espaço multiuso com centro cultural e escola de educação ambiental, valorizando assim a cultura do bairro, a memória da edificação e valorização da consciência ambiental, esses três pilares tem guiado nosso grupo, que é composto de artistas do bairro, agentes socioambientais, moradores da região e simpatizantes do movimento de outras regiões da cidade.</p>
+                        <p>Nossa proposta mostra o quanto é necessário uma mobilização conjunta com a
+                            comunidade, no sentido de transformação do espaço interno e externo da Usina e
+                            transformação do seu uso, as discussões caminham para um espaço multiuso com
+                            centro cultural e escola de educação ambiental, valorizando assim a cultura do
+                            bairro, a memória da edificação e valorização da consciência ambiental, esses
+                            três pilares tem guiado nosso grupo, que é composto de artistas do bairro,
+                            agentes socioambientais, moradores da região e simpatizantes do movimento de
+                            outras regiões da cidade.</p>
                     </div>
                 </div>
             </div>
@@ -135,7 +175,9 @@
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="IMG/usina_4.jpeg" alt="...">
                             <div class="card-body">
-                                <p class="card-text">São realizadas atividades como teatro, dança, capoeira, ioga e oficinas de educação ambiental, além de programações voltadas para crianças.</p>
+                                <p class="card-text">São realizadas atividades como teatro, dança, capoeira,
+                                    ioga e oficinas de educação ambiental, além de programações voltadas para
+                                    crianças.</p>
                             </div>
                         </div>
                     </div>
@@ -143,7 +185,8 @@
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="IMG/usina_2.jpeg" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Movimento Usina Eco-Cultural ganha apoios e se candidata a verba de R$ 6 milhões.</p>
+                                <p class="card-text">Movimento Usina Eco-Cultural ganha apoios e se candidata a
+                                    verba de R$ 6 milhões.</p>
                             </div>
                         </div>
                     </div>
@@ -151,7 +194,8 @@
                         <div class="card" style="width: 18rem;">
                             <img class="card-img-top" src="IMG/usina_1.jpg" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Comissão de Política Urbana promove Audiência Pública no sábado sobre usina Eco-Cultural no Ipiranga</p>
+                                <p class="card-text">Comissão de Política Urbana promove Audiência Pública no
+                                    sábado sobre usina Eco-Cultural no Ipiranga</p>
                             </div>
                         </div>
                     </div>
@@ -175,49 +219,52 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-            <!-- ****************************************************************** -->
-            <!-- *************************** Rodape ************************** -->
-            <div class="container-fluid" id="rodape">
-                <div class="container-fluid text-center mt-0">
-                    <h1>Siga nas redes sociais</h1>
-                </div>
-                <div class="container-lg text-center">
+        <!-- ****************************************************************** -->
+        <!-- *************************** Rodape ************************** -->
+        <div class="container-fluid" id="rodape">
+            <div class="container-fluid text-center mt-0">
+                <h1>Siga nas redes sociais</h1>
+            </div>
+            <div class="container-lg text-center">
                 <link
                     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
                     rel="stylesheet"/>
                 <footer class="footer">
                     <div class="text-center my-4">
-                        <a href="https://www.facebook.com/profile.php?id=100086307794702&mibextid=ZbWKwL" class="mx-4">
+                        <a
+                            href="https://www.facebook.com/profile.php?id=100086307794702&mibextid=ZbWKwL"
+                            class="mx-4">
                             <i class="fa fa-facebook"></i>
                         </a>
                         <a href="https://www.youtube.com/@usinaecocultural" class="mx-4">
                             <i class="fa fa-youtube"></i>
                         </a>
-                        <a href="https://instagram.com/usinaecocultural?igshid=YmMyMTA2M2Y=" class="mx-4">
+                        <a
+                            href="https://instagram.com/usinaecocultural?igshid=YmMyMTA2M2Y="
+                            class="mx-4">
                             <i class="fa fa-instagram"></i>
                         </a>
                     </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dignissimos maiores reprehenderit perspiciatis debitis beatae obcaecati eum delectus dolor quaerat quidem nihil voluptas, cum alias esse itaque quo enim ut.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                        dignissimos maiores reprehenderit perspiciatis debitis beatae obcaecati eum
+                        delectus dolor quaerat quidem nihil voluptas, cum alias esse itaque quo enim ut.</p>
                 </footer>
             </div>
+        </div>
+        <!-- ****************************************************************** -->
+        <div vw="vw" class="enabled">
+            <div vw-access-button="vw-access-button" class="active"></div>
+            <div vw-plugin-wrapper="vw-plugin-wrapper">
+                <div class="vw-plugin-top-wrapper"></div>
             </div>
-            <!-- ****************************************************************** -->
-            <div vw="vw" class="enabled">
-                <div vw-access-button="vw-access-button" class="active"></div>
-                <div vw-plugin-wrapper="vw-plugin-wrapper">
-                    <div class="vw-plugin-top-wrapper"></div>
-                </div>
-            </div>
-            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-            <script>
-                new window
-                    .VLibras
-                    .Widget('https://vlibras.gov.br/app');
-            </script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                crossorigin="anonymous"></script>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window
+                .VLibras
+                .Widget('https://vlibras.gov.br/app');
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-        </body>
-    </html>
+    </body>
+</html>
