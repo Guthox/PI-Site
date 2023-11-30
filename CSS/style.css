@@ -15,22 +15,37 @@ body{
     height: 50vh;
 }
 
+.bannerButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
 .card{
     width: 18rem;
 }
 
 #sobreNos{
     /* background-color: #EA8356; */
-    background-image: linear-gradient(#EA8356, #3A90C3);
+    background-image: linear-gradient(#ECECEC, #EA8356);
 }
 
 #apoiadores{
-    background-image: linear-gradient(#3A90C3, #ECECEC);
+    background-image: linear-gradient(#EA8356, #3A90C3);
 }
 
 #proposta{
     /* background-color: #3A90C3; */
-    background-image: linear-gradient(#ECECEC, #69A625);
+    background-image: linear-gradient(#3A90C3, #69A625);
 }
 
 #fotos{
